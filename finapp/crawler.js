@@ -1,5 +1,5 @@
 var mongodb = require('mongodb');
-var request = require('request').defaults({'proxy': 'http://www-proxy.idc.oracle.com:80'});
+var request = require('request');
 var numeral = require('numeral');
 
 //We need to work with "MongoClient" interface in order to connect to a mongodb server.
